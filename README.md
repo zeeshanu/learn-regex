@@ -68,7 +68,7 @@ letter and also it is too short.
     - [The Plus](#232-the-plus)
     - [The Question Mark](#233-the-question-mark)
   - [Braces](#24-braces)
-  - [Character Group](#25-character-group)
+  - [Capturing Group](#25-character-group)
   - [Alternation](#26-alternation)
   - [Escaping special character](#27-escaping-special-character)
   - [Anchors](#28-anchors)
