@@ -69,6 +69,7 @@ letter and also it is too short.
     - [The Question Mark](#233-the-question-mark)
   - [Braces](#24-braces)
   - [Capturing Group](#25-capturing-group)
+    - [Non-capturing group](#251-non-capturing-group)
   - [Alternation](#26-alternation)
   - [Escaping special character](#27-escaping-special-character)
   - [Anchors](#28-anchors)
