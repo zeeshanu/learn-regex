@@ -37,10 +37,10 @@
 > A regular expression is a group of characters or symbols which is used to find a specific pattern in a text.
 
 A regular expression is a pattern that is matched against a subject string from
-left to right. Regular expressions are used to replace text within a string, 
-validating forms, extracting a substring from a string based on a pattern match, 
+left to right. Regular expressions are used to replace text within a string,
+validating forms, extracting a substring from a string based on a pattern match,
 and so much more. The term "regular expression" is a mouthful, so you will usually
-find the term abbreviated to "regex" or "regexp". 
+find the term abbreviated to "regex" or "regexp".
 
 Imagine you are writing an application and you want to set the rules for when a
 user chooses their username. We want to allow the username to contain letters,
@@ -69,13 +69,8 @@ letter and also it is too short.
     - [The Plus](#232-the-plus)
     - [The Question Mark](#233-the-question-mark)
   - [Braces](#24-braces)
-<<<<<<< HEAD
-  - [Capturing Group](#25-capturing-group)
-    - [Non-capturing group](#251-non-capturing-group)
-=======
   - [Capturing Groups](#25-capturing-groups)
       - [Non-Capturing Groups](#251-non-capturing-groups)
->>>>>>> refs/remotes/upstream/master
   - [Alternation](#26-alternation)
   - [Escaping Special Characters](#27-escaping-special-characters)
   - [Anchors](#28-anchors)
@@ -285,8 +280,8 @@ regular expression `[0-9]{3}` means: Match exactly 3 digits.
 
 ## 2.5 Capturing Groups
 
-A capturing group is a group of subpatterns that is written inside parentheses 
-`(...)`. As discussed before, in regular expressions, if we put a quantifier 
+A capturing group is a group of subpatterns that is written inside parentheses
+`(...)`. As discussed before, in regular expressions, if we put a quantifier
 after a character then it will repeat the preceding character. But if we put a quantifier
 after a capturing group then it repeats the whole capturing group. For example,
 the regular expression `(ab)*` matches zero or more repetitions of the character
@@ -300,15 +295,15 @@ For example, the regular expression `(c|g|p)ar` means: a lowercase `c`,
 
 [Test the regular expression](https://regex101.com/r/tUxrBG/1)
 
-Note that capturing groups do not only match, but also capture, the characters for use in 
+Note that capturing groups do not only match, but also capture, the characters for use in
 the parent language. The parent language could be Python or JavaScript or virtually any
 language that implements regular expressions in a function definition.
 
 ### 2.5.1 Non-Capturing Groups
 
-A non-capturing group is a capturing group that matches the characters but 
-does not capture the group. A non-capturing group is denoted by a `?` followed by a `:` 
-within parentheses `(...)`. For example, the regular expression `(?:c|g|p)ar` is similar to 
+A non-capturing group is a capturing group that matches the characters but
+does not capture the group. A non-capturing group is denoted by a `?` followed by a `:`
+within parentheses `(...)`. For example, the regular expression `(?:c|g|p)ar` is similar to
 `(c|g|p)ar` in that it matches the same characters but will not create a capture group.
 
 <pre>
@@ -317,8 +312,8 @@ within parentheses `(...)`. For example, the regular expression `(?:c|g|p)ar` is
 
 [Test the regular expression](https://regex101.com/r/Rm7Me8/1)
 
-Non-capturing groups can come in handy when used in find-and-replace functionality or 
-when mixed with capturing groups to keep the overview when producing any other kind of output. 
+Non-capturing groups can come in handy when used in find-and-replace functionality or
+when mixed with capturing groups to keep the overview when producing any other kind of output.
 See also [4. Lookaround](#4-lookaround).
 
 ## 2.6 Alternation
